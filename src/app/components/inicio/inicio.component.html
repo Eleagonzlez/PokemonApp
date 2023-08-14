@@ -1,0 +1,12 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let poke of pokemones">
+      <div class="card" style="width: 18rem;">
+       <!-- <img [src]="poke.url" class="card-img-top" alt="...">-->
+        <div class="card-body">
+          <h5 class="card-title">{{ poke.name }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
